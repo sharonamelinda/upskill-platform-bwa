@@ -576,6 +576,15 @@ html {
   margin-right: auto;
 }
 
+.my-\[30px\] {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
@@ -672,10 +681,6 @@ html {
   width: 146px;
 }
 
-.w-\[315px\] {
-  width: 315px;
-}
-
 .w-\[50px\] {
   width: 50px;
 }
@@ -688,6 +693,10 @@ html {
   width: 732px;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
@@ -695,10 +704,6 @@ html {
 
 .w-full {
   width: 100%;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .max-w-\[1280px\] {
@@ -888,10 +893,6 @@ html {
   padding-bottom: 100px;
 }
 
-.pt-\[30px\] {
-  padding-top: 30px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -965,10 +966,6 @@ html {
   line-height: 32px;
 }
 
-.leading-\[\] {
-  line-height: ;
-}
-
 .leading-\[60px\] {
   line-height: 60px;
 }
@@ -1013,11 +1010,6 @@ html {
 
 .shadow-upskill-purple {
   --tw-shadow-color: #541FEB;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-upskill-purple\/75 {
-  --tw-shadow-color: rgb(84 31 235 / 0.75);
   --tw-shadow: var(--tw-shadow-colored);
 }
 
