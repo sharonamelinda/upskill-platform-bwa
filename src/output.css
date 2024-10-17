@@ -697,6 +697,10 @@ html {
   width: 100%;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .max-w-\[1280px\] {
   max-width: 1280px;
 }
