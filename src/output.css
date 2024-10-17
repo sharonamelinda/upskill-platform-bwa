@@ -557,7 +557,6 @@ video {
 html {
   color: #100531;
   font-family: "poppins", Poppins, sans-serif;
-  background-color: #dae1e9;
 }
 
 .visible {
@@ -730,6 +729,10 @@ html {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -837,6 +840,11 @@ html {
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-5 {
@@ -953,6 +961,14 @@ html {
   line-height: 32px;
 }
 
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[60px\] {
+  line-height: 60px;
+}
+
 .text-upskill-red {
   --tw-text-opacity: 1;
   color: rgb(255 34 34 / var(--tw-text-opacity));
@@ -1003,4 +1019,25 @@ html {
 
 .outline {
   outline-style: solid;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.hover\:shadow-lg:hover {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-upskill-purple\/75:hover {
+  --tw-shadow-color: rgb(84 31 235 / 0.75);
+  --tw-shadow: var(--tw-shadow-colored);
 }
